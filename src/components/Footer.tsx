@@ -44,7 +44,7 @@ export default function Footer() {
         <div style={{ display: 'flex', gap: '24px', alignItems: 'center' }}>
           {[
             { label: 'GitHub', href: 'https://github.com' },
-            { label: 'LinkedIn', href: 'https://linkedin.com' },
+            { label: 'LinkedIn', href: 'https://www.linkedin.com/in/shazil-nasir-88322a420/' },
             { label: 'Twitter', href: 'https://twitter.com' },
           ].map((link) => (
             <a
