@@ -21,7 +21,13 @@ const CONTACT_ITEMS = [
     href: 'https://github.com/shazilnasir5',
   },
   {
-    icon: '📍',
+    icon: '�',
+    label: 'LinkedIn',
+    value: 'linkedin.com/in/shazil-nasir-88322a420',
+    href: 'https://www.linkedin.com/in/shazil-nasir-88322a420/',
+  },
+  {
+    icon: '�📍',
     label: 'Location',
     value: 'Chah Sultan, Rawalpindi',
     href: '#',
