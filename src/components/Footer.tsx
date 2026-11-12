@@ -37,7 +37,7 @@ export default function Footer() {
           </span>
           <span style={{ width: '1px', height: '16px', background: 'rgba(255,255,255,0.1)' }} />
           <span style={{ fontSize: '12px', color: 'rgba(255,255,255,0.25)' }}>
-            © {year} Alex Johnson. All rights reserved.
+            © {year} Shazil Nasir. All rights reserved.
           </span>
         </div>
 
@@ -71,7 +71,7 @@ export default function Footer() {
         </div>
 
         <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.15)', letterSpacing: '0.5px' }}>
-          Crafted with ♥ in San Francisco
+          Crafted with ♥ in Rawalpindi
         </div>
       </div>
     </footer>
