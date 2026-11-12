@@ -5,5 +5,5 @@
       <stop offset="1" stop-color="#a78bfa" />
     </linearGradient>
   </defs>
-  <text x="32" y="43" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="29" font-weight="700" letter-spacing="-2" fill="url(#sn-gradient)">SN</text>
+  <text x="32" y="47" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-3" fill="url(#sn-gradient)">SN</text>
 </svg>
