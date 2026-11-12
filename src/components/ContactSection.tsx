@@ -15,13 +15,13 @@ const CONTACT_ITEMS = [
     href: 'tel:+923355631801',
   },
   {
-    icon: '⚡',
+    icon: 'github',
     label: 'GitHub',
     value: 'github.com/shazilnasir5',
     href: 'https://github.com/shazilnasir5',
   },
   {
-    icon: '�',
+    icon: 'linkedin',
     label: 'LinkedIn',
     value: 'linkedin.com/in/shazil-nasir-88322a420',
     href: 'https://www.linkedin.com/in/shazil-nasir-88322a420/',
@@ -140,7 +140,17 @@ export default function ContactSection() {
                     background: hovered === i ? 'rgba(139, 92, 246, 0.06)' : 'rgba(255,255,255,0.03)',
                   }}
                 >
-                  <span style={{ fontSize: '18px', flexShrink: 0 }}>{item.icon}</span>
+                  <span style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', fontSize: '18px', flexShrink: 0, color: hovered === i ? 'white' : 'rgba(255,255,255,0.8)' }}>
+                    {item.icon === 'github' ? (
+                      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.53v-2.08c-3.1.67-3.75-1.32-3.75-1.32-.5-1.28-1.24-1.62-1.24-1.62-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 .1.64 2.29 3.04 1.61.1-.72.4-1.21.7-1.49-2.47-.28-5.07-1.24-5.07-5.5 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.06 1.15a10.7 10.7 0 0 1 5.57 0c2.12-1.45 3.05-1.15 3.05-1.15.61 1.54.23 2.68.12 2.96.71.78 1.14 1.78 1.14 3.01 0 4.27-2.6 5.21-5.08 5.49.4.35.75 1.02.75 2.06V22c0 .3.2.64.77.53A11.1 11.1 0 0 0 12 .9Z" />
+                      </svg>
+                    ) : item.icon === 'linkedin' ? (
+                      <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52c0-.84-.69-1.52-1.55-1.52ZM7.93 18.74H4.98V9.25h2.95v9.49ZM6.45 7.95a1.71 1.71 0 1 1 0-3.42 1.71 1.71 0 0 1 0 3.42Zm12.29 10.79h-2.95v-4.62c0-1.1-.02-2.51-1.53-2.51-1.53 0-1.77 1.2-1.77 2.43v4.7H9.54V9.25h2.83v1.3h.04c.39-.75 1.36-1.53 2.79-1.53 2.98 0 3.54 1.96 3.54 4.51v5.21Z" />
+                      </svg>
+                    ) : item.icon}
+                  </span>
                   <div>
                     <div
                       style={{
