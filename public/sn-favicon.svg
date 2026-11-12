@@ -5,6 +5,5 @@
       <stop offset="1" stop-color="#a78bfa" />
     </linearGradient>
   </defs>
-  <rect width="64" height="64" rx="16" fill="#080810" />
   <text x="32" y="43" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="29" font-weight="700" letter-spacing="-2" fill="url(#sn-gradient)">SN</text>
 </svg>
